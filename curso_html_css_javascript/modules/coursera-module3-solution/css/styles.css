@@ -61,7 +61,9 @@ body {
   .jumbotron {
     height: 150px;
   }
-  
+  .col-xs-12 {
+    padding: 10px;
+  }
    #ChickenT, #BeefT, #SushiT {
     font-size: 14px;
     font-size:large;
@@ -70,6 +72,7 @@ body {
     color: #000;
     background-color:darkgray;
     padding-bottom: 10px;
+    
   }
 
   #ChickenP, #BeefP, #SushiP {
@@ -77,7 +80,11 @@ body {
     color: #000;
     background-color:darkgray;
     padding: 10px;
-    height: 300px;
+    padding: 10px;
+    text-align: left;
+    text-overflow: auto;
+    display: block;
+    overflow: hidden;
 }
   /* END HOME PAGE */
   
